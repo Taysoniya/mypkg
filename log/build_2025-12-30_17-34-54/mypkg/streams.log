@@ -1,0 +1,41 @@
+[0.479s] Invoking command in '/home/yuto/ros2_ws/src/mypkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/yuto/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/yuto/ros2_ws/src/mypkg/build/mypkg/build install --record /home/yuto/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
+[0.641s] running egg_info
+[0.642s] creating build/mypkg/mypkg.egg-info
+[0.642s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.645s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.645s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.645s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.645s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.645s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.647s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.647s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.647s] running build
+[0.647s] running build_py
+[0.647s] creating /home/yuto/ros2_ws/src/mypkg/build/mypkg/build
+[0.647s] creating /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.648s] creating /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.648s] copying mypkg/listener.py -> /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.648s] copying mypkg/__init__.py -> /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.648s] copying mypkg/talker.py -> /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.648s] running install
+[0.649s] running install_lib
+[0.649s] creating /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.649s] copying /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.650s] copying /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.650s] copying /home/yuto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.650s] byte-compiling /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.651s] byte-compiling /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[0.651s] byte-compiling /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[0.651s] running install_data
+[0.651s] creating /home/yuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.651s] creating /home/yuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.651s] creating /home/yuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.652s] copying resource/mypkg -> /home/yuto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.652s] copying package.xml -> /home/yuto/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.652s] running install_egg_info
+[0.654s] Copying build/mypkg/mypkg.egg-info to /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.655s] running install_scripts
+[0.675s] Installing listener script to /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.675s] Installing talker script to /home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.675s] writing list of installed files to '/home/yuto/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.692s] Invoked command in '/home/yuto/ros2_ws/src/mypkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/yuto/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuto/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/yuto/ros2_ws/src/mypkg/build/mypkg/build install --record /home/yuto/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data

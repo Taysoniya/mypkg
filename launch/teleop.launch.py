@@ -6,16 +6,17 @@ import launch_ros.actions
 
 def generate_launch_description():
     return launch.LaunchDescription([
+        # 1台目のロボット
         launch_ros.actions.Node(
             package='mypkg',
             executable='robot_sim',
-            output='screen'
+            name='robot1',
+            output='screen',
         ),
         launch_ros.actions.Node(
             package='mypkg',
-            executable='commander',
+            executable='robot_sim',
+            name='robot2',
             output='screen',
-            emulate_tty=True,
-            arguments=['--ros-args', '--log-level', 'info']
         ),
     ])

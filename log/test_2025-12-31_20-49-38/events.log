@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000981] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict([('mypkg', '/home/yuto/ros2_ws/src/mypkg/install/mypkg')])}
+[0.001027] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.099879] (-) TimerEvent: {}
+[0.200381] (-) TimerEvent: {}
+[0.226692] (mypkg) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/yuto/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'yuto', 'CXXFLAGS': '-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yuto/anaconda3/include  -I/home/yuto/anaconda3/targets/x86_64-linux/include', 'GCC_RANLIB': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-gcc-ranlib', 'OBJCOPY': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-objcopy', 'DEBUG_CXXFLAGS': '-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/yuto/anaconda3/include', 'SIZE': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-size', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yuto/ros2_ws/install/person_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'CONDA_BACKUP_QT_XCB_GL_INTEGRATION': '', 'HOME': '/home/yuto', 'CC_FOR_BUILD': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-cc', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/yuto/ros2_ws/src/mypkg/launch', 'ROS_PYTHON_VERSION': '3', 'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/yuto/anaconda3/lib -Wl,-rpath-link,/home/yuto/anaconda3/lib -L/home/yuto/anaconda3/lib  -L/home/yuto/anaconda3/targets/x86_64-linux/lib -L/home/yuto/anaconda3/targets/x86_64-linux/lib/stubs', 'STRINGS': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-strings', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'CPP': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-cpp', '_CONDA_ROOT': '/home/yuto/anaconda3', 'NVCC_PREPEND_FLAGS': ' -ccbin=/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-c++', 'WAYLAND_DISPLAY': 'wayland-0', 'ELFEDIT': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-elfedit', 'COLCON_PREFIX_PATH': '/home/yuto/ros2_ws/install', 'STRIP': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-strip', 'ROS_DISTRO': 'humble', 'LOGNAME': 'yuto', 'GCC': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-gcc', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/18008_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'READELF': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-readelf', 'AR': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ar', 'GXX': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-g++', 'TERM': 'xterm-256color', 'AS': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-as', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'CXXFILT': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-c++filt', 'BUILD': 'x86_64-conda-linux-gnu', 'PATH': '/home/yuto/.local/bin:/opt/ros/humble/bin:/home/yuto/anaconda3/bin:/home/yuto/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/dotnet:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/M24C1/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/M24C1/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'build_alias': 'x86_64-conda-linux-gnu', 'WT_SESSION': '44313f16-6dff-48b1-b4a2-4f0450741fd4', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yuto/anaconda3/include  -I/home/yuto/anaconda3/targets/x86_64-linux/include', 'GCC_AR': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-gcc-ar', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'DEBUG_CFLAGS': '-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem /home/yuto/anaconda3/include', '_CONDA_PYTHON_SYSCONFIGDATA_NAME': '_sysconfigdata_x86_64_conda_cos7_linux_gnu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'QT_XCB_GL_INTEGRATION': 'none', 'GSETTINGS_SCHEMA_DIR': '/home/yuto/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/yuto/ros2_ws/install/person_msgs:/home/yuto/ros2_ws/install/mypkg:/opt/ros/humble', 'CPPFLAGS': '-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/yuto/anaconda3/include  -I/home/yuto/anaconda3/targets/x86_64-linux/include', 'CONDA_PYTHON_EXE': '/home/yuto/anaconda3/bin/python', 'SHELL': '/bin/bash', 'CMAKE_ARGS': '-DCMAKE_AR=/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ar -DCMAKE_RANLIB=/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_LINKER=/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-strip -DCMAKE_BUILD_TYPE=Release', 'HOST': 'x86_64-conda-linux-gnu', 'CXX': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-c++', 'DEBUG_CPPFLAGS': '-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem /home/yuto/anaconda3/include', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', '_CONDA_EXE': '/home/yuto/anaconda3/bin/conda', 'ADDR2LINE': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-addr2line', 'GCC_NM': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-gcc-nm', 'CONDA_BUILD_SYSROOT': '/home/yuto/anaconda3/x86_64-conda-linux-gnu/sysroot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'LOCALHOST', 'PWD': '/home/yuto/ros2_ws/src/mypkg/build/mypkg', 'LD_GOLD': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ld.gold', 'CONDA_EXE': '/home/yuto/anaconda3/bin/conda', 'LD': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ld', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yuto/ros2_ws/install/person_msgs/local/lib/python3.10/dist-packages:/home/yuto/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'GPROF': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-gprof', 'CONDA_PREFIX': '/home/yuto/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'host_alias': 'x86_64-conda-linux-gnu', 'CC': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-cc', 'RANLIB': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-ranlib', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'CXX_FOR_BUILD': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-c++', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yuto/ros2_ws/install/person_msgs:/home/yuto/anaconda3:/home/yuto/anaconda3/x86_64-conda-linux-gnu/sysroot/usr', 'NM': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-nm', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:', 'OBJDUMP': '/home/yuto/anaconda3/bin/x86_64-conda-linux-gnu-objdump', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/yuto/ros2_ws/src/mypkg/build/mypkg/pytest.xml --junit-prefix=mypkg -o cache_dir=/home/yuto/ros2_ws/src/mypkg/build/mypkg/.pytest_cache'}, 'shell': False}
+[0.300528] (-) TimerEvent: {}
+[0.400867] (-) TimerEvent: {}
+[0.501181] (-) TimerEvent: {}
+[0.531546] (mypkg) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.531784] (mypkg) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.535235] (mypkg) StdoutLine: {'line': b'cachedir: build/mypkg/.pytest_cache\n'}
+[0.535305] (mypkg) StdoutLine: {'line': b'rootdir: /home/yuto/ros2_ws/src/mypkg\n'}
+[0.535342] (mypkg) StdoutLine: {'line': b'plugins: ament-flake8-0.12.14, launch-testing-ros-0.19.12, ament-lint-0.12.14, ament-pep257-0.12.14, launch-testing-1.0.11, ament-xmllint-0.12.14, ament-copyright-0.12.14, colcon-core-0.20.1, cov-3.0.0\n'}
+[0.601332] (-) TimerEvent: {}
+[0.629450] (mypkg) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.629586] (mypkg) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.629783] (mypkg) StdoutLine: {'line': b'\n'}
+[0.634941] (mypkg) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.701500] (-) TimerEvent: {}
+[0.801796] (-) TimerEvent: {}
+[0.802272] (mypkg) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.830297] (mypkg) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.830459] (mypkg) StdoutLine: {'line': b'\n'}
+[0.830507] (mypkg) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.830544] (mypkg) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.830579] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.877070] (mypkg) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.877515] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 11 code style errors / warnings:\x1b[0m\n'}
+[0.877688] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/commander.py:8:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.877839] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/commander.py:13:1: W293 blank line contains whitespace\x1b[0m\n'}
+[0.877968] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/commander.py:22:42: W291 trailing whitespace\x1b[0m\n'}
+[0.878105] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/commander.py:29:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.878576] (mypkg) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.878745] (mypkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.878843] (mypkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.878889] (mypkg) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.878925] (mypkg) StderrLine: {'line': b'\n'}
+[0.878961] (mypkg) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.878994] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/commander.py:36:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[0.879046] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/robot_sim.py:8:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.879082] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/robot_sim.py:21:1: W293 blank line contains whitespace\x1b[0m\n'}
+[0.879114] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/robot_sim.py:33:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.879145] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./mypkg/robot_sim.py:40:1: E305 expected 2 blank lines after class or function definition, found 1\x1b[0m\n'}
+[0.879176] (mypkg) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./build/mypkg/build/lib/mypkg/listener.py:7:12: E211 whitespace before '('\x1b[0m\n"}
+[0.879206] (mypkg) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./build/mypkg/build/lib/mypkg/listener.py:16:5: F841 local variable 'pub' is assigned to but never used\x1b[0m\n"}
+[0.879237] (mypkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.879288] (mypkg) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.879323] (mypkg) StdoutLine: {'line': b'\n'}
+[0.879354] (mypkg) StdoutLine: {'line': b'./mypkg/commander.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[0.879399] (mypkg) StdoutLine: {'line': b'class MinimalPublisher(Node):\n'}
+[0.879432] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.879465] (mypkg) StdoutLine: {'line': b'\n'}
+[0.879494] (mypkg) StdoutLine: {'line': b'./mypkg/commander.py:13:1: W293 blank line contains whitespace\n'}
+[0.879551] (mypkg) StdoutLine: {'line': b'        \n'}
+[0.879589] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.879626] (mypkg) StdoutLine: {'line': b'\n'}
+[0.879665] (mypkg) StdoutLine: {'line': b'./mypkg/commander.py:22:42: W291 trailing whitespace\n'}
+[0.879696] (mypkg) StdoutLine: {'line': b'            command = input("Command > ") \n'}
+[0.879727] (mypkg) StdoutLine: {'line': b'                                         ^\n'}
+[0.879758] (mypkg) StdoutLine: {'line': b'\n'}
+[0.879788] (mypkg) StdoutLine: {'line': b'./mypkg/commander.py:29:1: E302 expected 2 blank lines, found 1\n'}
+[0.879843] (mypkg) StdoutLine: {'line': b'def main(args=None):\n'}
+[0.879901] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.879940] (mypkg) StdoutLine: {'line': b'\n'}
+[0.879972] (mypkg) StdoutLine: {'line': b'./mypkg/commander.py:36:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.880003] (mypkg) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[0.880039] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.880072] (mypkg) StdoutLine: {'line': b'\n'}
+[0.880103] (mypkg) StdoutLine: {'line': b'./mypkg/robot_sim.py:8:1: E302 expected 2 blank lines, found 1\n'}
+[0.880134] (mypkg) StdoutLine: {'line': b'class MinimalSubscriber(Node):\n'}
+[0.880163] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.880199] (mypkg) StdoutLine: {'line': b'\n'}
+[0.880234] (mypkg) StdoutLine: {'line': b'./mypkg/robot_sim.py:21:1: W293 blank line contains whitespace\n'}
+[0.880273] (mypkg) StdoutLine: {'line': b'        \n'}
+[0.880336] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.880375] (mypkg) StdoutLine: {'line': b'\n'}
+[0.880420] (mypkg) StdoutLine: {'line': b'./mypkg/robot_sim.py:33:1: E302 expected 2 blank lines, found 1\n'}
+[0.880456] (mypkg) StdoutLine: {'line': b'def main(args=None):\n'}
+[0.880496] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.880545] (mypkg) StdoutLine: {'line': b'\n'}
+[0.880579] (mypkg) StdoutLine: {'line': b'./mypkg/robot_sim.py:40:1: E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.880616] (mypkg) StdoutLine: {'line': b"if __name__ == '__main__':\n"}
+[0.880669] (mypkg) StdoutLine: {'line': b'^\n'}
+[0.880703] (mypkg) StdoutLine: {'line': b'\n'}
+[0.880736] (mypkg) StdoutLine: {'line': b"./build/mypkg/build/lib/mypkg/listener.py:7:12: E211 whitespace before '('\n"}
+[0.880767] (mypkg) StdoutLine: {'line': b'node = Node ("listener")\n'}
+[0.880796] (mypkg) StdoutLine: {'line': b'           ^\n'}
+[0.880825] (mypkg) StdoutLine: {'line': b'\n'}
+[0.880861] (mypkg) StdoutLine: {'line': b"./build/mypkg/build/lib/mypkg/listener.py:16:5: F841 local variable 'pub' is assigned to but never used\n"}
+[0.880917] (mypkg) StdoutLine: {'line': b'    pub = node.create_subscription(Int16, "countup", cb, 10)\n'}
+[0.880971] (mypkg) StdoutLine: {'line': b'    ^\n'}
+[0.881016] (mypkg) StdoutLine: {'line': b'\n'}
+[0.881049] (mypkg) StdoutLine: {'line': b"1     E211 whitespace before '('\n"}
+[0.881081] (mypkg) StdoutLine: {'line': b'4     E302 expected 2 blank lines, found 1\n'}
+[0.881112] (mypkg) StdoutLine: {'line': b'2     E305 expected 2 blank lines after class or function definition, found 1\n'}
+[0.881143] (mypkg) StdoutLine: {'line': b"1     F841 local variable 'pub' is assigned to but never used\n"}
+[0.881174] (mypkg) StdoutLine: {'line': b'1     W291 trailing whitespace\n'}
+[0.881210] (mypkg) StdoutLine: {'line': b'2     W293 blank line contains whitespace\n'}
+[0.881273] (mypkg) StdoutLine: {'line': b'\n'}
+[0.881308] (mypkg) StdoutLine: {'line': b'12 files checked\n'}
+[0.881340] (mypkg) StdoutLine: {'line': b'11 errors\n'}
+[0.881372] (mypkg) StdoutLine: {'line': b'\n'}
+[0.881402] (mypkg) StdoutLine: {'line': b"'E'-type errors: 7\n"}
+[0.881432] (mypkg) StdoutLine: {'line': b"'F'-type errors: 1\n"}
+[0.881499] (mypkg) StdoutLine: {'line': b"'W'-type errors: 3\n"}
+[0.881564] (mypkg) StdoutLine: {'line': b'\n'}
+[0.881623] (mypkg) StdoutLine: {'line': b'Checked files:\n'}
+[0.881669] (mypkg) StdoutLine: {'line': b'\n'}
+[0.881709] (mypkg) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.881748] (mypkg) StdoutLine: {'line': b'* ./launch/teleop.launch.py\n'}
+[0.881779] (mypkg) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.881810] (mypkg) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.881840] (mypkg) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.881870] (mypkg) StdoutLine: {'line': b'* ./mypkg/commander.py\n'}
+[0.881906] (mypkg) StdoutLine: {'line': b'* ./mypkg/__init__.py\n'}
+[0.881946] (mypkg) StdoutLine: {'line': b'* ./mypkg/robot_sim.py\n'}
+[0.881980] (mypkg) StdoutLine: {'line': b'* ./build/mypkg/build/lib/mypkg/listener.py\n'}
+[0.882011] (mypkg) StdoutLine: {'line': b'* ./build/mypkg/build/lib/mypkg/__init__.py\n'}
+[0.882043] (mypkg) StdoutLine: {'line': b'* ./build/mypkg/build/lib/mypkg/talker.py\n'}
+[0.882084] (mypkg) StdoutLine: {'line': b'* ./build/mypkg/prefix_override/sitecustomize.py\n'}
+[0.882118] (mypkg) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.882149] (mypkg) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.882183] (mypkg) StdoutLine: {'line': b'--- generated xml file: /home/yuto/ros2_ws/src/mypkg/build/mypkg/pytest.xml ----\n'}
+[0.882214] (mypkg) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.882245] (mypkg) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 11 code style...\n'}
+[0.882276] (mypkg) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.35s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.901981] (-) TimerEvent: {}
+[0.930404] (mypkg) CommandEnded: {'returncode': 1}
+[0.930902] (mypkg) TestFailure: {'identifier': 'mypkg'}
+[0.930943] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.931773] (-) EventReactorShutdown: {}

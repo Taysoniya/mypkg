@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2025 Obata Yuuto
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -21,13 +20,13 @@ class MinimalSubscriber(Node):
         command = msg.data
         
         if command == 'w':
-            self.get_logger().info('【ロボット動作】前進します！ ⬆️')
+            self.get_logger().info('【ロボット動作】前進します')
         elif command == 's':
-            self.get_logger().info('【ロボット動作】停止しました 🛑')
+            self.get_logger().info('【ロボット動作】停止しました')
         elif command == 'a':
-            self.get_logger().info('【ロボット動作】左に曲がります ⬅️')
+            self.get_logger().info('【ロボット動作】左に曲がります')
         elif command == 'd':
-            self.get_logger().info('【ロボット動作】右に曲がります ➡️')
+            self.get_logger().info('【ロボット動作】右に曲がります')
         else:
             self.get_logger().info(f'謎の指令を受信: "{command}"')
 

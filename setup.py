@@ -27,8 +27,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'talker = mypkg.talker:main',
-            'listener = mypkg.listener:main',
+            'commander = mypkg.commander:main',
+            'robot_sim = mypkg.robot_sim:main',
         ],
     },
 )

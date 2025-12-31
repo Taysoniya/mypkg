@@ -3,7 +3,7 @@
 <package format="3">
   <name>mypkg</name>
   <version>0.0.0</version>
-  <description>ロボットシステム学講義用</description>
+  <description>ロボットを疑似的に操作するためのros2パッケージ</description>
   <maintainer email="droopy6781@gmail.com">Yuto Obata</maintainer>
   <license>BSD-3-Clause</license>
   <exec_depend>rclpy</exec_depend>

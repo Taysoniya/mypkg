@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 # SPDX-FileCopyrightText: 2025 Obata Yuuto
 # SPDX-License-Identifier: BSD-3-Clause
 

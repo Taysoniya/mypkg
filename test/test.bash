@@ -25,7 +25,7 @@ NODE_PID=$!
 
 sleep 2
 
-ros2 topic pub --once /cmd_topic std_msgs/msg/String "data: 'forward'"
+ros2 topic pub --once /cmd_topic std_msgs/msg/String "data: 'w'"
 
 sleep 2
 
@@ -33,7 +33,7 @@ kill $NODE_PID
 
 cat /tmp/mypkg.log
 
-if grep -q "forward" /tmp/mypkg.log; then
+if grep -q "前進" /tmp/mypkg.log; then
     echo "Test passed: Correct log found"
     exit 0
 else

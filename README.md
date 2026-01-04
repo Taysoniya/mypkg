@@ -51,10 +51,12 @@ $ ros2 launch mypkg teleop.launch.py
 ### commander
 * 役割:ユーザーからの標準入力（キーボード）を受けて、ロボットへの指令としてトピック配信します。
 * パブリッシュするトピック:`/cmd_topic`
+    * 型: `std_msgs/msg/String`
 
 ### robot_sim
 * 役割:指令トピックを受信し、ロボットの現在の状態（動作ログ）を標準出力に表示します。
 * サブスクライブするトピック:`/cmd_topic`
+    * 型: `std_msgs/msg/String`
 * 備考: Launchファイルを使用することで、名前を変えて複数同時に起動することが可能です。
 
 ## 実行環境

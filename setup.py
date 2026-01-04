@@ -16,9 +16,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Yuto Obata',
+    maintainer='Obata Yuuto',
     maintainer_email='droopy6781@gmail.com',
-    description='ロボットシステム学講義用',
+    description='ロボットを疑似的に操作するためのros2パッケージ',
     license='BSD-3-Clause',
     extras_require={
         'test': [

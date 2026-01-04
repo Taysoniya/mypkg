@@ -64,6 +64,6 @@ $ ros2 launch mypkg teleop.launch.py
 
 ## ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
-- なお、（.github/workflows）は、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、参考にしたものです。
-    - [ryuichiueda/my_slides robosys_2025](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2025)
+- なお、このパッケージの一部は、下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを、参考にしたものです。
+    - [ryuichiueda/slides_marp/ robosys_2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 Obata Yuuto

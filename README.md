@@ -61,7 +61,7 @@ $ ros2 launch mypkg teleop.launch.py
 
 ## 実行環境
 * ROS 2 Humble Hawksbill
-* Ubuntu 24.04 LTS
+* Ubuntu 22.04 LTS
 * Python 3.10
 
 ## ライセンス
